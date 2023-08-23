@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-12" data-aos="fade-right" data-aos-duration="500">
                     <figure class="overImage">
-                        <img src="images/Pattern.png" alt="">
+                        <img :src="PatternImage" alt="">
                     </figure>
                     <h2 class="text-uppercase mb-5">Venue</h2>
                 </div>
@@ -15,7 +15,7 @@
                     <div class="icoBox">
                         <div class="ico">
                             <figure>
-                                <img src="images/Location-Icon-w.png" alt="">
+                                <img :src="LocationIcon" alt="">
                             </figure>
                         </div>
                         <div class="listBox">
@@ -28,7 +28,7 @@
                     <div class="icoBox">
                         <div class="ico">
                             <figure>
-                                <img src="images/Date-Icon-w.png" alt="">
+                                <img :src="DateIcon" alt="">
                             </figure>
                         </div>
                         <div class="listBox">
@@ -44,9 +44,20 @@
 </template>
 
 <script>
+    import PatternImage from "@/assets/images/Pattern.png";
+    import LocationIcon from "@/assets/images/Location-Icon-w.png";
+    import DateIcon from "@/assets/images/Date-Icon-w.png";
+
     export default {
-        // Component logic goes here
-    }
+        // Use imported images
+        data() {
+            return {
+                PatternImage: PatternImage,
+                LocationIcon: LocationIcon,
+                DateIcon: DateIcon,
+            };
+        },
+    };
 </script>
 
 <style scoped>

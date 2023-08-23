@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'bw_gradual_demo';
-    src: url('../fonts/bwgradualdemo-medium-webfont.woff2') format('woff2'),
-        url('../fonts/bwgradualdemo-medium-webfont.woff') format('woff');
+    src: url('./fonts/bwgradualdemo-medium-webfont.woff2') format('woff2'),
+        url('./fonts/bwgradualdemo-medium-webfont.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'bw_gradual_demo';
-    src: url('../fonts/bwgradualdemo-regular-webfont.woff2') format('woff2'),
-        url('../fonts/bwgradualdemo-regular-webfont.woff') format('woff');
+    src: url('./fonts/bwgradualdemo-regular-webfont.woff2') format('woff2'),
+        url('./fonts/bwgradualdemo-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Montserrat-Arabic';
-    src: url("../fonts/ar/Montserrat-Arabic-Medium.otf") format("opentype");
+    src: url("./fonts/ar/Montserrat-Arabic-Medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -734,8 +734,8 @@ section.programme-cta .rightBox .btn {
 /* VENUE SECTION */
 section.venue {
     padding: 209px 0;
-    background-image: url(../images/venueImage1.jpg);
-    background-image: url(../images/venueImage1.jpg);
+    background-image: url(./images/venueImage1.jpg);
+    background-image: url(./images/venueImage1.jpg);
     background-position: center center;
     background-size: cover;
 }

@@ -22,7 +22,7 @@
                         <div class="col-lg-5 col-md-6 col-sm-12" data-aos="fade-right" data-aos-duration="500">
                             <div class="rcfa">
                                 <figure>
-                                    <img src="images/vision2030.svg" alt="Royal commision for ALUla">
+                                    <img :src="Vision2030Icon" alt="Royal Commission for AlUla">
                                 </figure>
                             </div>
                         </div>
@@ -44,10 +44,10 @@
 
                     <ul class="social">
                         <!-- <li><a href="#"><img src="images/FB.png" alt="facebook"></a></li> -->
-                        <li><a href="https://twitter.com/RCU_SA" target="_blank"><img src="images/Twitter.png"
+                        <li><a href="https://twitter.com/RCU_SA" target="_blank"><img :src="TwitterIcon"
                                     alt="twitter"></a></li>
                         <li><a href="https://www.linkedin.com/company/the-royal-commission-for-alula/"
-                                target="_blank"><img src="images/LinkedIn.png" alt="linkedin"></a></li>
+                                target="_blank"><img :src="LinkedInIcon" alt="linkedin"></a></li>
                         <!-- <li><a href="#"><img src="images/Youtube.png" alt="youtube"></a></li> -->
                     </ul>
                 </div>
@@ -62,7 +62,7 @@
                         <div class="logo-footer">
                             <a href="#">
                                 <figure>
-                                    <img src="images/Logo-color.svg" alt="">
+                                    <img :src="Logo" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -80,9 +80,21 @@
 </template>
 
 <script>
+    import Vision2030Icon from "@/assets/images/vision2030.svg";
+    import TwitterIcon from "@/assets/images/Twitter.png";
+    import LinkedInIcon from "@/assets/images/LinkedIn.png";
+    import Logo from "@/assets/images/Logo-color.svg";
+
     export default {
-        // Component logic goes here
-    }
+        data() {
+            return {
+                Vision2030Icon: Vision2030Icon,
+                TwitterIcon: TwitterIcon,
+                LinkedInIcon: LinkedInIcon,
+                Logo: Logo,
+            };
+        },
+    };
 </script>
 
 <style scoped>

@@ -5,7 +5,7 @@
                 <div class="col-md-6" data-aos="fade-right" data-aos-duration="500">
                     <div class="leftBox">
                         <figure class="overImage">
-                            <img src="images/Pattern.png" alt="">
+                            <img :src="PatternImage" alt="over image" />
                         </figure>
                         <h2 class="text-uppercase">Programme</h2>
                     </div>
@@ -13,20 +13,31 @@
 
                 <div class="col-md-6" data-aos="fade-left" data-aos-duration="500">
                     <div class="rightBox">
-                        <a href="images/pdf/WAS-Programme-at-a-glance.pdf" class="btn btn-primary text-uppercase"
-                            target="_blank">Download Programme</a>
+                        <!-- Add a download link for the PDF -->
+                        <a :href="pdfUrl" class="btn btn-primary text-uppercase" target="_blank"
+                            download="WAS-Programme-at-a-glance.pdf">
+                            Download Programme
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </template>
 
 <script>
+    import PatternImage from "@/assets/images/Pattern.png";
+
     export default {
-        // Component logic goes here
-    }
+        data() {
+            return {
+                // Initialize the data properties for your images
+                PatternImage: PatternImage,
+                // Define the URL to the PDF file
+                pdfUrl: "@/assets/images/pdf/WAS-Programme-at-a-glance.pdf",
+            };
+        },
+    };
 </script>
 
 <style scoped>
