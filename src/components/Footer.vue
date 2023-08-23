@@ -80,10 +80,10 @@
 </template>
 
 <script>
-    import Vision2030Icon from "@/assets/images/vision2030.svg";
+    import Vision2030Icon from "@/assets/images/vision2030.png";
     import TwitterIcon from "@/assets/images/Twitter.png";
     import LinkedInIcon from "@/assets/images/LinkedIn.png";
-    import Logo from "@/assets/images/Logo-color.svg";
+    import Logo from "@/assets/images/Logo-color.png";
 
     export default {
         data() {
