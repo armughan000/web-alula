@@ -9,7 +9,7 @@
 
             <a class="navbar-brand d-lg-none d-block" href="index.html">
                 <figure>
-                    <img class="img-fluid" src="images/Logo-color.svg" alt="">
+                     <img :src="Logo" alt="" class="img-fluid">
                 </figure>
             </a>
 
@@ -41,7 +41,7 @@
 
                 <a class="navbar-brand d-lg-block d-none" data-aos="fade-up" data-aos-duration="800" href="index.html">
                     <figure>
-                        <img class="img-fluid" src="images/Logo-color.svg" alt="">
+                        <img :src="Logo" alt="" class="img-fluid">
                     </figure>
                 </a>
 
@@ -66,8 +66,15 @@
 </template>
 
 <script>
+    import Logo from "@/assets/images/Logo-color.png";
+
     export default {
-        // Component logic goes here
+        data() {
+            return {
+
+                Logo: Logo,
+            };
+        },
     }
 </script>
 

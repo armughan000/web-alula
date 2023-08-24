@@ -275,8 +275,8 @@ section.hero .hero-content .leftBox h1 {
 
 section.hero .hero-content .rightBox {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: flex-end;
     height: 100%;
 }
 
@@ -324,7 +324,7 @@ section.about .rightBox {
     top: -140px;
     margin-bottom: -130px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 
@@ -718,7 +718,7 @@ section.programme-cta .btn.btn-secondary.text-uppercase {}
 
 section.programme-cta .rightBox {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
