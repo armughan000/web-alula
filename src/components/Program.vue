@@ -2,7 +2,7 @@
     <section id="program" class="programme-cta overflow-hidden">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right" data-aos-duration="500">
+                <div class="col-md-6" data-aos="fade-right">
                     <div class="leftBox">
                         <figure class="overImage">
                             <img :src="PatternImage" alt="over image" />
@@ -11,7 +11,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6" data-aos="fade-left" data-aos-duration="500">
+                <div class="col-md-6" data-aos="fade-left">
                     <div class="rightBox">
                         <!-- Add a download link for the PDF -->
                         <a :href="pdfUrl" class="btn btn-primary text-uppercase" target="_blank"
