@@ -7,7 +7,7 @@
             </div>
 
             <div class="titleDv" data-aos="fade-up" data-aos-duration="500">
-                <h2>THEMES</h2>
+                <h2>{{$t("common.themes")}}</h2>
             </div>
 
             <div class="rightDvdr" data-aos="fade-left" data-aos-duration="500">
@@ -24,12 +24,10 @@
                     <div class="card ">
                         <img :src="themeImage1" class="card-img" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">01</h5>
-                            <h6 class="card-text text-uppercase mb-4">IDENTITY</h6>
+                            <h5 class="card-title">{{ $t("theme.num1") }}</h5>
+                            <h6 class="card-text text-uppercase mb-4">{{ $t('theme.identity') }}</h6>
 
-                            <p>Exploring the intricate relationship we have with our heritage and connection to the
-                                past, and how archaeology shapes our personal and shared identities in an increasingly
-                                globalized world.</p>
+                            <p>{{ $t("theme.exploring_the_intricate") }}</p>
 
                             <!--<a href="#" class="btn btn-primary text-uppercase">Read more</a>-->
                         </div>
@@ -41,10 +39,10 @@
                     <div class="card ">
                         <img :src="themeImage2" class="card-img" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">02</h5>
-                            <h6 class="card-text text-uppercase mb-4">RUINSCAPES</h6>
+                            <h5 class="card-title">{{ $t("theme.num2") }}</h5>
+                            <h6 class="card-text text-uppercase mb-4">{{ $t("theme.ruinscape") }}</h6>
 
-                            <p>Exploring archaeological paradoxes, practices, and dilemmas.</p>
+                            <p>{{ $t("theme.explore_archaeological") }}</p>
 
                             <!--<a href="#" class="btn btn-primary text-uppercase">Read more</a>-->
                         </div>
@@ -56,11 +54,10 @@
                     <div class="card ">
                         <img :src="themeImage3" class="card-img" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">03</h5>
-                            <h6 class="card-text text-uppercase mb-4">RESILIENCE</h6>
+                            <h5 class="card-title">{{ $t("theme.num3") }}</h5>
+                            <h6 class="card-text text-uppercase mb-4">{{ $t("theme.resilience") }}</h6>
 
-                            <p>Exploring wisdom of the past which has much to teach us, and highlighting challenges that
-                                need to be overcome.</p>
+                            <p>{{ $t("theme.explore_wisdom") }}</p>
 
                             <!--<a href="#" class="btn btn-primary text-uppercase">Read more</a>-->
                         </div>
@@ -72,11 +69,10 @@
                     <div class="card ">
                         <img :src="themeImage4" class="card-img" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">04</h5>
-                            <h6 class="card-text text-uppercase mb-4">ACCESSIBILITY</h6>
+                            <h5 class="card-title">{{ $t("theme.num4") }}</h5>
+                            <h6 class="card-text text-uppercase mb-4">{{ $t("theme.accessibility") }}</h6>
 
-                            <p>Exploring the past as a universal right by traversing topics of diversity, disability,
-                                and financial access to heritage.</p>
+                            <p>{{ $t("theme.explore_past") }}</p>
 
                             <!--<a href="#" class="btn btn-primary text-uppercase">Read more</a>-->
                         </div>

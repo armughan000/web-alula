@@ -1,0 +1,45 @@
+{
+  "locale": {
+    "en": "English",
+    "ar": "العربية"
+  },
+  "common": {
+    "faq": "FAQs",
+    "venue": "Venue",
+    "about": "About",
+    "themes": "Themes",
+    "contact": "Contact Us",
+    "programme": "Programme",
+    "speaker": "Speakers & Panelists"
+  },
+  "venue": {
+    "alula": "AlUla Maraya",
+    "date": "13-15 September 2023",
+    "add_calender": "Add to Calendar",
+    "get_directions": "Get Directions",
+    "maraya_asher": "Maraya, Ashar Valley, AlUla, Saudi Arabia"
+  },
+  "theme": {
+    "num1": "01",
+    "num2": "02",
+    "num3": "03",
+    "num4": "04",
+    "identity": "IDENTITY",
+    "ruinscape": "RuneScape",
+    "resilience": "RESILIENCE",
+    "accessibility": "ACCESSIBILITY",
+    "explore_archaeological": "Exploring archaeological paradoxes, practices, and dilemmas.",
+    "explore_wisdom": "Exploring wisdom of the past which has much to teach us, and highlighting challenges that need to be overcome.",
+    "explore_past": "Exploring the past as a universal right by traversing topics of diversity, disability,and financial access to heritage.",
+    "exploring_the_intricate": "Exploring the intricate relationship we have with our heritage and connection to the past, and how archaeology shapes our personal and shared identities in an increasingly globalized world."
+  },
+  "programme": {
+    "dwnProgramme": "Download Programme"
+  },
+  "footer": {
+    "explore": "Explore",
+    "follow_us": "Follow Us",
+    "back_top": "Back To Top",
+    "copyright": "Copyright © 2023 AlUla World Archaeology Summit."
+  }
+}
