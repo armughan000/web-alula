@@ -13,9 +13,11 @@
 		"lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
 	},
 	"dependencies": {
+		"@intlify/unplugin-vue-i18n": "^0.13.0",
 		"aos": "^2.3.4",
 		"pinia": "^2.0.22",
 		"vue": "^3.2.39",
+		"vue-i18n": "^9.2.2",
 		"vue-router": "^4.1.5",
 		"vue-youtube-embed": "^2.2.2"
 	},

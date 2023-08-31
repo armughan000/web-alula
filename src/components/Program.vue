@@ -7,7 +7,7 @@
                         <figure class="overImage">
                             <img :src="PatternImage" alt="over image" />
                         </figure>
-                        <h2 class="text-uppercase">Programme</h2>
+                        <h2 class="text-uppercase">{{ $t("common.programme") }}</h2>
                     </div>
                 </div>
 
@@ -16,7 +16,7 @@
                         <!-- Add a download link for the PDF -->
                         <a :href="pdfUrl" class="btn btn-primary text-uppercase" target="_blank"
                             download="WAS-Programme-at-a-glance.pdf">
-                            Download Programme
+                            {{ $t("programme.dwnProgramme") }}
                         </a>
                     </div>
                 </div>
