@@ -45,6 +45,16 @@ export default {
   },
   setup() {
     const cmsStore = useCmsStore();
+    //Fetch your API data here and update the Pinia store
+    fetch('https://techibits.com/clients/alula/content/currentsite/ar-us/all/home/')
+      .then((response) => response.json())
+      .then((data) => {
+        const cmsStore = useCmsStore();
+        cmsStore.setApiData(data);
+      })
+      .catch((error) => {
+        console.error('Error fetching API data:', error);
+      });
 
     // Use computed properties to access the API data in your template
     const aboutData = computed(() => cmsStore.cmsData);
