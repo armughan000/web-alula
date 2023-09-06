@@ -1,10 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Layout from "@/views/Layout.vue";
+import Speakers from "@/components/Speaker.vue";
 
 const routes = [
   {
     path: "/",
     component: Layout,
+  },
+  {
+    path: "/speaker",
+    component: Speakers,
   },
 ];
 

@@ -45,17 +45,8 @@ export default {
   },
   setup() {
     const cmsStore = useCmsStore();
-    const headers = new Headers();
-
-    headers.append('Authorization', 'Basic UmVzdENsaWVudDpSZXN0Q2xpZW50'); // Replace with your actual authorization header if needed
-    headers.append('Content-Type', 'application/json'); // Adjust content type if necessary
-    const requestOptions = {
-      method: 'GET', // Use the appropriate HTTP method (GET, POST, etc.)
-      headers: headers,
-      // Other fetch options like 'body', 'mode', 'credentials', 'redirect', etc. can be included here
-    };
     //Fetch your API data here and update the Pinia store
-    fetch('https://www.worldarchaeologysummit.com/admin/rest/content/currentsite/en-us/all/home?format=json',requestOptions)
+    fetch('https://techibits.com/clients/alula/content/currentsite/en-us/all/home/')
       .then((response) => response.json())
       .then((data) => {
         const cmsStore = useCmsStore();

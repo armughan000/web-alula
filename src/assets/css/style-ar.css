@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Greta Arabic';
+    src: url('../fonts/ar/GretaArabic-Bold.ttf')  format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greta Arabic';
+    src: url('../fonts/ar/GretaArabic.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-ExtraLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-ExtraBold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Arabic';
+    src: url("../fonts/ar/Montserrat-Arabic-SemiBold.otf") format("opentype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'bw_gradual_demo';
+    src: url('../fonts/bwgradualdemo-medium-webfont.woff2') format('woff2'),
+         url('../fonts/bwgradualdemo-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Greta Arabic';
+    font-weight:bold;
+    margin: 0;
+    text-align: right;
+    letter-spacing: 0;
+}
+p {
+    font-family: 'Montserrat-Arabic';
+    text-align: right;
+}
+
+.language ul li a.en{font-family: 'bw_gradual_demo';font-weight: 500;font-size: 15.24px;}
+
+
+figure.overImage {
+    text-align: right;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+    font-family: 'Montserrat-Arabic';
+}
+.hero-sub {
+    text-align: right;
+    letter-spacing: 0;
+}
+
+section.about .leftBox{
+    justify-content: end;
+}
+section.hero .hero-content .leftBox h1 {
+    text-align: right;
+    letter-spacing: 0;
+}
+
+section.hero .hero-content .rightBox {
+    justify-content: start;
+    letter-spacing: 0;
+}
+
+section.hero .hero-content .rightBox h5 {
+    text-align: left;
+    letter-spacing: 0;
+}
+
+section.about .leftBox .content figure.overImage {
+    text-align: right;
+}
+
+section.about .leftBox .content h2 {
+    text-align: right;
+    letter-spacing: 0;
+}
+
+section.theme .theme-content .titleDv h2 {
+    letter-spacing: 0;
+}
+section.theme .theme-card .card .card-img-overlay .card-text {
+    letter-spacing: 0;
+}
+
+section.theme .theme-card .card .card-img-overlay p {
+    transform: translateX(0%);
+}
+
+section.programme-cta .rightBox {
+    
+}
+
+section.programme-cta .leftBox h2 {
+    letter-spacing: 0;
+}
+
+section.programme-cta .rightBox .btn {
+    letter-spacing: 0;
+}
+
+section.venue .icoBox{
+    justify-content: end;
+}
+section.venue .icoBox .listBox {
+    text-align: right;
+}
+section.venue .icoBox .listBox a.btn {
+    letter-spacing: 0;
+}
+
+section.venue .icoBox .ico figure {
+    text-align: right;
+}
+
+button.btn, a.btn {
+    font-family: 'Montserrat-Arabic';
+    letter-spacing: 0;
+}
+
+
+.accordion.acc-ar {
+    text-align: right;
+}
+.accordion::after {
+    float: left;
+}
+
+
+footer.explore h3{
+    letter-spacing: 0;
+}
+footer.explore .social {
+    justify-content: end;
+}
+footer.explore .social li {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+ul.footer-email {
+    text-align: right;
+}
+
+footer.explore .footer-menu {
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+footer.explore .footer-menu li {
+    text-align: right;
+}
+footer.explore .footer-menu li a{
+    font-family: 'Montserrat-Arabic';
+}
+
+ul.termsList {
+    justify-content: start;
+}
+
+footer.explore .copyright .logo-footer a figure {
+    text-align: right;
+}
+
+section.programme .content .programmeTab nav .nav-tabs{
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 991px){
+    .language {
+        top: 42px;
+        left: 50px
+    }
+    .navbar-collapse {
+        right: auto;
+        left: 0;
+        transform: translateX(-100%);
+    }
+    .navbar-collapse .navbar-toggler {
+        left: auto;
+        right: 20px;
+    }
+
+    section.hero .hero-content .rightBox {
+        justify-content: end;
+    }
+    section.hero .hero-content .rightBox h5 {
+        text-align: right;
+    }
+
+    footer.explore .rcfa figure {
+        display: flex;
+        justify-content: end;
+    }
+    
+    footer.explore .rcfa figure img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 767px) {
+    .language {
+        top: 32px;
+    }
+    ul.termsList {
+        justify-content: end;
+    }
+}
+
+@media (max-width: 575px) {
+    .language {
+        top: 42px;
+    }
+    .navbar-collapse .navbar-nav{flex-direction: column-reverse;}
+}
