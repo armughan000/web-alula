@@ -68,6 +68,9 @@
               $t("common.speaker")
             }}</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#program">{{ $t("common.programme") }}</a>
+          </li>
         </ul>
 
         <a
@@ -88,7 +91,7 @@
           style="--bs-scroll-height: 100px"
         >
           <li class="nav-item">
-            <a class="nav-link" href="#program">{{ $t("common.programme") }}</a>
+            <a class="nav-link" href="#partner">{{ $t("common.partners") }}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#venue">{{ $t("common.venue") }}</a>
